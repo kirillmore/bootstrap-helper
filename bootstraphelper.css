@@ -1,5 +1,5 @@
-/*!
- * bootstrap helper v1.4
+/*
+ * bootstrap3 helper v1.5.2
  * @copyright 2018 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/bootstrap-helper
@@ -22,6 +22,15 @@
 }
 .pt {
   padding-top: 15px;
+}
+.pl {
+  padding-left: 15px;
+}
+.pb {
+  padding-bottom: 15px;
+}
+.pr {
+  padding-right: 15px;
 }
 @media (max-width: 767px) {
   .xs-text-center {
