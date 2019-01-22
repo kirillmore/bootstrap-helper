@@ -1,0 +1,56 @@
+/*!
+ * bootstrap helper v1.4
+ * @copyright 2018 Kirill More | kirillmore86@gmail.com
+ * @license MIT
+ * https://github.com/kirillmore/bootstrap-helper
+ */
+
+@padvalue: 15px;
+@screen-xs-max: 767px;
+@screen-sm-min: 768px;
+@screen-sm-max: 991px;
+@screen-md-min: 992px;
+@screen-md-max: 1199px;
+@screen-lg-min: 1200px;
+
+  .nopadding {
+    padding: 0!important;
+    margin: 0!important;
+  }
+  .mt {
+    margin-top: @padvalue;
+  }
+  .ml {
+    margin-left: @padvalue;
+  }
+  .mb {
+    margin-bottom: @padvalue;
+  }
+  .mr {
+    margin-right: @padvalue;
+  }
+  .pt {
+    padding-top: @padvalue;
+  }
+  @media (max-width: @screen-xs-max) {
+    .xs-text-center {
+      text-align: center!important;
+    }
+    .xs-text-left {
+      text-align: left!important;
+    }
+    .xs-text-right {
+      text-align: right!important;
+    }
+    .xs-text-justify {
+      text-align: justify!important;
+    }
+    .xs-mh {
+      margin-top: @padvalue!important;
+      margin-bottom: @padvalue!important;
+    }
+    .xs-mh-half {
+      margin-top: @padvalue / 2!important;
+      margin-bottom: @padvalue / 2!important;
+    }
+  }
