@@ -1,5 +1,5 @@
 /*
- * bootstrap3 helper v1.5.7
+ * bootstrap3 helper v1.6
  * @copyright 2018 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/bootstrap-helper
@@ -42,6 +42,13 @@
   .pr {
     padding-right: @padvalue;
   }
+  .tab {
+    display: table;
+    div {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
   @media (max-width: @screen-xs-max) {
     .xs-text-center {
       text-align: center!important;
@@ -62,5 +69,11 @@
     .xs-mh-half {
       margin-top: @padvalue / 2!important;
       margin-bottom: @padvalue / 2!important;
+    }
+    .xs-mb {
+      margin-bottom: @padvalue!important;
+    }
+    .xs-mt {
+      margin-top: @padvalue!important;
     }
   }
