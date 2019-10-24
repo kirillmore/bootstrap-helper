@@ -1,11 +1,11 @@
 /*
- * bootstrap3 helper v1.7
+ * bootstrap3 helper v1.8
  * @copyright 2018 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/bootstrap-helper
 */
 
-@padvalue: 15px;
+@unit: 15px;
 
 @screen-xs-max: 767px;
 @screen-sm-min: 768px;
@@ -20,40 +20,64 @@
   }
 
   .mt {
-    margin-top: @padvalue;
+    margin-top: @unit;
   }
   .ml {
-    margin-left: @padvalue;
+    margin-left: @unit;
   }
   .mb {
-    margin-bottom: @padvalue;
+    margin-bottom: @unit;
   }
   .mr {
-    margin-right: @padvalue;
+    margin-right: @unit;
   }
   .pt {
-    padding-top: @padvalue;
+    padding-top: @unit;
   }
   .pl {
-    padding-left: @padvalue;
+    padding-left: @unit;
   }
   .pb {
-    padding-bottom: @padvalue;
+    padding-bottom: @unit;
   }
   .pr {
-    padding-right: @padvalue;
+    padding-right: @unit;
   }
   .mt-x2{
-  	margin-top: @padvalue*2;
+  	margin-top: @unit*2;
   }
   .mb-x2{
-  	margin-bottom: @padvalue*2;
+  	margin-bottom: @unit*2;
   }
   .ml-x2{
-  	margin-left: @padvalue*2;
+  	margin-left: @unit*2;
   }
   .mr-x2{
-  	margin-right: @padvalue*2;
+  	margin-right: @unit*2;
+  }
+  .mt0 {
+    margin-top:0;
+  }
+  .mb0 {
+    margin-bottom: 0;
+  }
+  .ml0 {
+    margin-left: 0;
+  }
+  .mr0 {
+    margin-right: 0;
+  }
+  .pt0 {
+    padding-top:0;
+  }
+  .pb0 {
+    padding-bottom: 0;
+  }
+  .pl0 {
+    padding-left: 0;
+  }
+  .pr0 {
+    padding-right: 0;
   }
 
   .tab {
@@ -78,17 +102,17 @@
       text-align: justify!important;
     }
     .xs-mh {
-      margin-top: @padvalue!important;
-      margin-bottom: @padvalue!important;
+      margin-top: @unit!important;
+      margin-bottom: @unit!important;
     }
     .xs-mh-half {
-      margin-top: @padvalue / 2!important;
-      margin-bottom: @padvalue / 2!important;
+      margin-top: @unit / 2!important;
+      margin-bottom: @unit / 2!important;
     }
     .xs-mb {
-      margin-bottom: @padvalue!important;
+      margin-bottom: @unit!important;
     }
     .xs-mt {
-      margin-top: @padvalue!important;
+      margin-top: @unit!important;
     }
   }

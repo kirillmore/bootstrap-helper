@@ -1,5 +1,5 @@
 /*
- * bootstrap3 helper v1.6
+ * bootstrap3 helper v1.8
  * @copyright 2018 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/bootstrap-helper
@@ -44,6 +44,30 @@
 .mr-x2 {
   margin-right: 30px;
 }
+.mt0 {
+  margin-top: 0;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.ml0 {
+  margin-left: 0;
+}
+.mr0 {
+  margin-right: 0;
+}
+.pt0 {
+  padding-top: 0;
+}
+.pb0 {
+  padding-bottom: 0;
+}
+.pl0 {
+  padding-left: 0;
+}
+.pr0 {
+  padding-right: 0;
+}
 .tab {
   display: table;
 }
@@ -71,5 +95,11 @@
   .xs-mh-half {
     margin-top: 7.5px !important;
     margin-bottom: 7.5px !important;
+  }
+  .xs-mb {
+    margin-bottom: 15px !important;
+  }
+  .xs-mt {
+    margin-top: 15px !important;
   }
 }
