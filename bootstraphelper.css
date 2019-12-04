@@ -1,5 +1,5 @@
 /*
- * bootstrap3 helper v1.8
+ * bootstrap3 helper v1.9
  * @copyright 2018 Kirill More | kirillmore86@gmail.com
  * @license MIT
  * https://github.com/kirillmore/bootstrap-helper
@@ -43,6 +43,18 @@
 }
 .mr-x2 {
   margin-right: 30px;
+}
+.mt-half {
+  margin-top: 7.5px;
+}
+.mb-half {
+  margin-bottom: 7.5px;
+}
+.ml-half {
+  margin-left: 7.5px;
+}
+.mr-half {
+  margin-right: 7.5px;
 }
 .mt0 {
   margin-top: 0;
