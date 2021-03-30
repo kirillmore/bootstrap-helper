@@ -1,2 +1,2 @@
 # bootstrap-helper
-Some classes for bootstrap
+Some classes for bootstrap 3
